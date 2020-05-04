@@ -1,0 +1,97 @@
+.nav-flex-icons {
+    display: flex;
+}
+.row .col-xs-2 .col-xs-7 .col-xs-3 {
+    display: block;
+}
+.header{
+    background: url(/webResume/Assets/photo-of-starry-night.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    /*background-size: cover;*/
+    
+}
+
+.content {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+body{
+    background: url(/webResume/Assets/dot-grid.png) repeat;
+}
+
+.rounded-circle{
+    margin-top: 5rem;
+    width: 20%;
+    border: 3px solid;
+    border-color: #152123;
+    
+}
+.rounded-circle:hover {
+  transform: scale(1.05);
+  filter:opacity(30%);
+  transition: all 1s ease-in-out;
+    
+  
+}
+
+h1 {
+    margin: 20px
+}
+
+
+.lead {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/* ustawienie marginesow gornych dla kolumn*/
+
+.row1{
+    margin-top: 2rem;
+}
+.row1 .col-lg-1{
+    margin-top: 3rem
+}
+.row2 .col-lg-1{
+    margin-top: -3rem;
+}
+.row2 .col-lg-8 {
+    margin-top: -5.5rem;
+}
+.row3 .col-lg-1{
+    margin-top: -0.5rem;
+}
+.row3 .col-lg-8{
+margin-top: -3rem
+}
+.row4 .col-lg-1{
+    margin-top: 2.5rem 
+}
+.row5 .col-lg-1{
+    margin-top: 3rem;
+}
+
+/*usunięcie znaczników w liście*/
+
+.row5 .col-lg-8 ul{
+    list-style-type: none;
+}
+i{
+    color: azure;
+}
+i:hover{
+    color: darkgray;
+}
+
+a:link {
+  color: azure;
+}
+a:hover {
+  color: darkgray;
+  text-decoration: none;
+}
