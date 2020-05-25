@@ -13,7 +13,7 @@
     background: url(/Assets/photo-of-starry-night.jpg) no-repeat center center fixed;
     background-size: cover;
     width: 100wv;
-    height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
     
 }
 #header-wrapper{
-  margin-top:5%;
+  margin-top:10vh;
 }
 
 .language{
@@ -75,6 +75,7 @@ h1 {
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 3%;
     font-size: 1.15rem;
 }
 #row1{
