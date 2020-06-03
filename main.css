@@ -30,7 +30,7 @@
 }
 
 .language img{
-    width: 25px;
+    width: 22px;
 }
 
 .language img:hover{
@@ -47,7 +47,9 @@
     margin-left: auto;
 }
 body{
-    background: url(/Assets/dot-grid.png) repeat;
+    background: url(/Assets/light_background.png) no-repeat center center fixed;
+    background-size: cover;
+    width: 100wv;
 }
 
 .rounded-circle{
@@ -135,6 +137,21 @@ a:hover {
         padding-left: 0;
         padding-right: 0;
 }
+
+
+.logos img{
+    width: 70px;
+    margin-right: 1.0em;
+    margin-bottom: 5.0em
+}
+.logos li{
+    display: inline-block;
+}
+
+#row2 {
+    height: 10em;
+}
+
 
 @media (max-width: 991px){
     .rounded-circle{
